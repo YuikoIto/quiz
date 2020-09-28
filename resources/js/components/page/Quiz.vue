@@ -6,10 +6,7 @@
         <article class="col-md-8 col-xs-12">
           <section>
             <h2 class="quiz-question-h2">
-              <img
-                class="quiz-question__logo"
-                src="public/images/what-is-mark.png"
-              />
+              <img class="quiz-question__logo" src="/images/what-is-mark.png" />
               第1問
             </h2>
             <p>正しい敬語を使った表現を１つ選んでください。</p>
@@ -46,7 +43,7 @@
             <h2 class="quiz-correct-h2">
               <img
                 class="quiz-correct__logo"
-                src="public/images/correct-mark.png"
+                src="/images/correct-mark.png"
               />正解
             </h2>
             <p>
@@ -64,7 +61,7 @@
             <h2 class="quiz-commentary-h2">
               <img
                 class="quiz-commentary__logo"
-                src="public/images/commentary-mark.png"
+                src="/images/commentary-mark.png"
               />解説
             </h2>
             <div class="quiz-commentary__text">
@@ -93,9 +90,9 @@
 </template>
 
 <script>
-import TheHeader from '../layout/TheHeader';
-import TheFooter from '../layout/TheFooter';
-import TheSidebar from '../layout/TheSidebar';
+import TheHeader from "../layout/TheHeader";
+import TheFooter from "../layout/TheFooter";
+import TheSidebar from "../layout/TheSidebar";
 
 export default {
   components: {
