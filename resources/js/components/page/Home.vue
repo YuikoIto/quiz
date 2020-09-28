@@ -8,7 +8,7 @@
             <h2 class="home-quiz__introduction-h2">
               <img
                 class="home-quiz__introduction-h2-logo"
-                src="/public/images/what-is-mark.png"
+                src="/images/what-is-mark.png"
               />4 Answers Quizとは?
             </h2>
             <p>
@@ -21,7 +21,7 @@
             <h2 class="home-quiz__setting-h2">
               <img
                 class="home-quiz__setting-h2-logo"
-                src="/public/images/directory-icon.png"
+                src="/images/directory-icon.png"
               />出題設定
             </h2>
             <form action="/quiz" method="post">
@@ -74,7 +74,7 @@
             <h2 class="home-quiz__ranking-h2">
               <img
                 class="home-quiz__ranking-h2-logo"
-                src="/public/images/graph-icon.png"
+                src="/images/graph-icon.png"
               />ランキング
             </h2>
             <div>
@@ -112,7 +112,7 @@
             <h2 class="home__notice-h2">
               <img
                 class="home__notice-h2-logo"
-                src="/public/images/news-icon.png"
+                src="/images/news-icon.png"
               />お知らせ情報
             </h2>
             <dl>
@@ -129,10 +129,10 @@
 </template>
 
 <script>
-import TheHeader from '../layout/TheHeader';
-import TheFooter from '../layout/TheFooter';
-import TheSidebar from '../layout/TheSidebar';
-import BarChart from '../module/BarChart';
+import TheHeader from "../layout/TheHeader";
+import TheFooter from "../layout/TheFooter";
+import TheSidebar from "../layout/TheSidebar";
+import BarChart from "../module/BarChart";
 
 export default {
   components: {

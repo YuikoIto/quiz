@@ -737,7 +737,7 @@ var staticRenderFns = [
         _c("a", { attrs: { href: "/" } }, [
           _c("img", {
             staticClass: "header-nav__logo",
-            attrs: { src: "/public/images/header-logo.png" }
+            attrs: { src: "/images/header-logo.png" }
           })
         ])
       ]),
