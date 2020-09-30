@@ -5,6 +5,7 @@ import axios from "axios";
 import jQuery from "jquery";
 import MainPage from "./components/page/MainPage";
 import Loading from "vue-loading-overlay";
+import Notifications from "vue-notification";
 import "vue-loading-overlay/dist/vue-loading.css";
 
 window.$ = window.jQuery = jQuery;
@@ -16,7 +17,7 @@ axios.defaults.headers.common["Authorization"] =
     document.querySelector('meta[name="api-token"]').getAttribute("content");
 Vue.use(SocialSharing);
 Vue.use(Loading);
-
+Vue.use(Notifications);
 new Vue({
     router: router,
     components: {
