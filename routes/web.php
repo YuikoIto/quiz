@@ -23,6 +23,9 @@ Route::get('/register', function () {
 Route::get('/login', function () {
     return view('auth.login.index');
 });
+Route::get('/mypage', function () {
+    return view('mypage.index');
+  });
 Route::post('/register', 'Auth\RegisterController@register');
 Route::post('/login', 'Auth\LoginController@login');
 Route::post('/logout', 'Auth\LoginController@logout');
